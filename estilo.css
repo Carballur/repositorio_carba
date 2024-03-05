@@ -1,0 +1,143 @@
+.caja{
+    position:absolute;
+    margin-left: 10%;
+    margin-right: 30%;
+    margin-top: 2%;
+    width: 75%; 
+    height:550px; 
+    border-style:solid double; 
+    border-width: 2px;
+    outline: 6px solid blue;
+    border-color: chocolate;
+}
+.botonaco{
+padding: 2% 2% 2% 2%;    
+align-content: center;
+position: relative;
+height: auto;
+width: auto;
+font-size: 22px;
+border-radius: 12%;
+}
+
+.murumuru{
+    list-style-position: inside;
+    margin-left:4%;
+    list-style-type: none;
+
+}
+.murumuru2{
+    
+    font-size: 20px;
+    padding: 20px 20px 20px 20px;
+}
+
+.selector{
+    position: relative;
+    margin-left:8%;
+    height: 35px;
+    width: 175px;
+    text-align: center;
+}
+.cajastexto{
+    font-size: 20px;
+    width: 200px;
+    height: 55px;
+    padding-left: 10px;
+    margin-left:15px;
+}
+.cajastexto2{
+    font-size: 20px;
+    width: 220px;
+    height: 55px;
+    padding-left: 10px;
+    margin-left:15px;
+}
+
+.radius{
+    padding-left: 25px;
+    margin-left: 3%;
+}
+
+.tabula{
+    position: relative;
+    margin-left: 2%;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 3px;
+    padding-bottom: 5%;
+    margin-top:5%;
+    padding-top:2%
+
+}
+
+.caja1{
+    padding-top:2%;
+    border-style: solid;
+    border-width: 5px;
+    position: absolute;
+    margin-top:3%;
+    margin-left: 5%;
+    width: 35%;
+    padding-left: 1.5%;
+    border-radius: 20px;
+    margin-bottom:30%;
+    padding-bottom:3%;
+
+
+}
+
+.caja2{
+    position: absolute;
+    border-style: dotted;
+    border-radius: 20px;
+    margin-top: 3%; 
+    border-width: 3px;
+    margin-right: 5%;
+    margin-left: 48%;
+    width: 35%;
+    padding-left:1.5%;
+    padding-right:1.5%;
+    padding-bottom:6%;
+    padding-top:2%;
+    margin-bottom:2%;
+}
+
+.caja3{
+    border-style: none;
+    border-width: 10px;
+    position: absolute;
+    margin-top: 50%;
+    width: 90%;
+    margin-left:4%;
+    text-align:center;
+
+}
+.lab1{
+    font-size: 25px;
+    font-family: "Comic Sans";
+    
+}
+.espacio{
+    padding-bottom:5px;
+}
+.texto1{
+    font-size: 22px;
+    font-family: verdana;
+}
+
+.texto2{
+    font-size: 30px;
+
+}
+input.largerCheckbox{
+    width: 20px;
+    height: 20px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    margin-bottom: 7px;
+}
