@@ -13,7 +13,7 @@
 .botonaco{
 padding: 2% 2% 2% 2%;    
 align-content: center;
-position: relative;
+position: absolute;
 height: auto;
 width: auto;
 font-size: 22px;
@@ -33,7 +33,7 @@ border-radius: 12%;
 }
 
 .selector{
-    position: relative;
+    position: absolute;
     margin-left:8%;
     height: 35px;
     width: 175px;
@@ -60,7 +60,7 @@ border-radius: 12%;
 }
 
 .tabula{
-    position: relative;
+    position: absolute;
     margin-left: 2%;
     border-style: solid;
     border-radius: 20px;
@@ -72,10 +72,10 @@ border-radius: 12%;
 }
 
 .caja1{
+    position:relative;
     padding-top:2%;
     border-style: solid;
     border-width: 5px;
-    position: absolute;
     margin-top:3%;
     margin-left: 5%;
     width: 35%;
@@ -88,7 +88,7 @@ border-radius: 12%;
 }
 
 .caja2{
-    position: absolute;
+    position: relative;
     border-style: dotted;
     border-radius: 20px;
     margin-top: 3%; 
@@ -104,9 +104,9 @@ border-radius: 12%;
 }
 
 .caja3{
+    position: relative;
     border-style: none;
     border-width: 10px;
-    position: absolute;
     margin-top: 50%;
     width: 90%;
     margin-left:4%;
