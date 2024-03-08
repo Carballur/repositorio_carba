@@ -7,13 +7,13 @@
     height:550px; 
     border-style:solid double; 
     border-width: 2px;
-    outline: 6px solid blue;
-    border-color: chocolate;
+    outline: 6px solid rgb(31, 99, 224);
+    border-color: rgb(147, 238, 44);
 }
 .botonaco{
 padding: 2% 2% 2% 2%;    
 align-content: center;
-position: absolute;
+position: relative;
 height: auto;
 width: auto;
 font-size: 22px;
@@ -33,7 +33,7 @@ border-radius: 12%;
 }
 
 .selector{
-    position: absolute;
+    position: relative;
     margin-left:8%;
     height: 35px;
     width: 175px;
@@ -55,12 +55,14 @@ border-radius: 12%;
 }
 
 .radius{
-    padding-left: 25px;
+    padding-left: 8px;
     margin-left: 3%;
+    width: 20px;
+    height: 20px;
 }
 
 .tabula{
-    position: absolute;
+    position: relative;
     margin-left: 2%;
     border-style: solid;
     border-radius: 20px;
@@ -72,10 +74,10 @@ border-radius: 12%;
 }
 
 .caja1{
-    position:relative;
     padding-top:2%;
     border-style: solid;
     border-width: 5px;
+    position: absolute;
     margin-top:3%;
     margin-left: 5%;
     width: 35%;
@@ -83,12 +85,13 @@ border-radius: 12%;
     border-radius: 20px;
     margin-bottom:30%;
     padding-bottom:3%;
-
-
+    outline: 6px solid rgb(31, 99, 224);
+    border-color: rgb(147, 238, 44);
+    border-style:solid double; 
 }
 
 .caja2{
-    position: relative;
+    position: absolute;
     border-style: dotted;
     border-radius: 20px;
     margin-top: 3%; 
@@ -104,9 +107,9 @@ border-radius: 12%;
 }
 
 .caja3{
-    position: relative;
     border-style: none;
     border-width: 10px;
+    position: absolute;
     margin-top: 50%;
     width: 90%;
     margin-left:4%;
@@ -140,4 +143,32 @@ ul {
 }
 li {
     margin-bottom: 7px;
+}
+.texto2{
+    padding-left:10px;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 15px;
+}
+footer{
+    text-align: right;
+    font-size: 75px;
+    font-weight:bold;
+    font-style:oblique;
+
+}
+header{
+    border-style: dotted dashed;
+    font-family: 'Antique Pro';
+    font-size: 35px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.imagen1{
+    width: 75%;
+    height: auto;
+}
+section{
+    padding-left: 14%;
+    padding-top: 2.5%;
 }
